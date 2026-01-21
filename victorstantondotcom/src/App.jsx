@@ -1,11 +1,11 @@
-import NavBar from "./assets/components/NavBar"
+import Homepage from './assets/pages/Homepage.jsx';
 
 function App() {
 
 
   return (
     <>
-      <NavBar></NavBar>
+      <Homepage></Homepage>
     </>
   )
 }

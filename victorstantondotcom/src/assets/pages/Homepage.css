@@ -1,0 +1,147 @@
+
+
+.hero {
+    width: auto;
+    margin: 0px auto;
+
+}
+
+.hero>.hero-header {
+    padding: 80px 250px 30px 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+    /* outline: 1px red solid; */
+}
+
+h1 {
+    font-size: 8vh;
+    color: #1c5460;
+}
+
+.hero-central {
+    display: flex;
+}
+.outerbox {
+    height: 50vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* outline: 10px solid black; */
+    justify-content: space-around;
+   
+}
+#outerbox2 {
+    text-align: center;
+}
+#central-img {
+    width: auto;
+    height: 60vh;
+    position: absolute;
+    /* outline: 10px solid pink; */
+    z-index: -1;
+    margin-bottom: 6vh;
+}
+
+.outerbox > .innerbox1 {
+    height: 20vh;
+    width: auto;
+    /* outline: 10px solid red; */
+    display: flex;
+    position: relative;
+}
+.outerbox > .innerbox2 {
+    height: 20vh;
+    width: auto;
+    /* outline: 10px solid yellow; */
+    display: flex;
+    position: relative;
+}
+
+.xsmlbox1 {
+    /* outline: 10px solid green; */
+    height: auto;
+    flex: 3;
+    position: relative;
+    z-index: 2;
+}
+.xsmlbox2 {
+    /* outline: 10px solid purple; */
+    height: 12vh;
+    width: 12vh;
+    /* flex: 2; */
+    border-radius: 50%;
+    transition:  1.5s ease-in;
+}
+.xsmlbox2:hover {
+    outline: 20px dotted #60BFC4;
+
+}
+.hero-paragraph {
+    font-size: 2.5vh;
+    padding: 0px 10px;
+}
+h3 {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 3vh;
+    color: #1c5460;
+}
+.left-title {
+    text-align: right;
+    padding-right: 10px;
+    /* outline: 1px red solid; */
+}
+#lmt-paragraph, #ni-paragraph {
+    text-align: right;
+    /* outline: 1px red solid; */
+}
+
+#syringe, #tag, #pt-logo, #lmt-logo {
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    z-index: -1;   
+}
+
+@media (max-width: 820px) {
+  .hero>.hero-header {
+    /* padding: 200px 50px 100px 50px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    width: 50vh;
+    outline: 1px red solid;
+    }
+    .hero-central {
+        flex-direction: column;
+        align-items: center;
+    }
+    .outerbox {
+        width: 50vh; 
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    #outbox1 {
+        order: 2
+    }
+    #outbox2 {
+        order: 1
+    }
+    #outbox2 {
+        order: 2
+    }
+    .xsmlbox1 {
+        order: 2;
+        /* text-align: left; */
+    }
+    .left-title {
+        text-align: left;
+    }
+        #lmt-paragraph, #ni-paragraph {
+        text-align: left;
+        }
+   
+}

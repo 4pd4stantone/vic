@@ -1,0 +1,106 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px red solid;
+    max-width: 100%;
+    width: 100%;
+    margin: 8vh auto 0vh auto;
+    height: 15vh;
+}
+footer >.footer1,.footer2, .footer3 {
+    width: 900px;
+    text-align: center;
+    background-color: #C8DB82;
+    flex: 1;
+    min-width: 250px;
+    outline: 1px white solid;
+}
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Icon {
+    height: 100px;
+}
+#footer-logo {
+    height: 10vh;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: -10px -10px 35px #369B76;
+    outline: 2px solid #60BFC4;
+    background-color: white;
+    transition: outline 1.5s ease-in;
+}
+#footer-logo:hover {
+    outline: 20px dotted #369B76;
+} 
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    outline: 1px black solid;
+}
+#fb-icon {
+    margin-top: 40px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   
+}
+
+#tos, #pp {
+    font-size: 18px ;
+    padding: 1vh;
+    margin: 0px;
+}
+#tos>a, #pp>a {
+    color:  #1F6373;
+    text-decoration: none;
+}
+#tos>a:hover, #pp>a:hover {
+    color:  #1F6373;
+    text-decoration: underline;
+}
+#cr {
+    font-size: 2.5vh ;
+    margin: 0px;
+}
+
+.Icon {
+    transition: outline 1.5s ease-in;
+    border-radius: 50%;
+    /* Trying to get the hover effect to display over the background color
+    so far the below attributes are not working */
+    position: relative;
+    z-index: 2;
+}
+.Icon:hover {
+    outline: 20px dotted #60BFC4;
+}
+
+@media (max-width: 1040px) {
+    footer {
+    flex-direction: column;
+    align-items: center;
+    
+   
+    }
+    .footer1, .footer2, .footer3 {
+    width: 100%;
+    z-index: 0;
+    max-width: 100%;
+    
+    }
+    .footer1 {
+    width: 100%;
+    max-width: 100%;
+    }
+  
+}
