@@ -112,7 +112,7 @@ h3 {
     margin-right: auto; */
     text-align: center;
     width: 50vh;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
     }
     .hero-central {
         flex-direction: column;
