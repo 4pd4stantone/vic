@@ -132,17 +132,19 @@ footer > .footer3 {
     footer {
     flex-direction: column;
     align-items: center;
-    
-   
+    height: auto;
+    width: 100%;
+    outline: 3px red solid;
     }
     .footer1, .footer2, .footer3 {
     width: 100%;
     z-index: 0;
     max-width: 100%;
-    
+    height: auto;
     }
     .footer1 {
     width: 100%;
+    height: auto;
     max-width: 100%;
     }
   
