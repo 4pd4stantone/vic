@@ -147,5 +147,7 @@ footer > .footer3 {
     height: auto;
     max-width: 100%;
     }
-  
+    .footer2 {
+        display: none;
+    }
 }
