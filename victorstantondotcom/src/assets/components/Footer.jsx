@@ -9,13 +9,11 @@ function Footer() {
 
     <footer>
       <div className="footer1">
-        <a href="./index.html">
           <img 
           src={logo}
           alt="Health Tech Software Engineer"
           id="footer-logo"
           />
-        </a>
       </div>
       <div className="footer2">
         <div className="social-media">

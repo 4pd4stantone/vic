@@ -74,8 +74,8 @@ footer > .footer3 {
 }
 
 #tos, #pp {
-    font-size: 18px ;
-    padding: 1vh;
+    font-size: 2vh ;
+    padding-top: 2vh;
     margin: 0px;
 }
 #tos>a, #pp>a {
@@ -87,8 +87,9 @@ footer > .footer3 {
     text-decoration: underline;
 }
 #cr {
-    font-size: 2.5vh ;
+    font-size: 2vh ;
     margin: 0px;
+    padding-top: 2vh;
 }
 
 .Icon {
@@ -150,5 +151,9 @@ footer > .footer3 {
     }
     .footer2 {
         display: none;
+    }
+    #cr {
+        font-size: 2vh;
+        padding-bottom: 2vh;
     }
 }
