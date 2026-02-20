@@ -1,11 +1,15 @@
 import Homepage from './assets/pages/Homepage.jsx';
+import { Route, Routes } from 'react-router'
 
 function App() {
 
 
   return (
     <>
-      <Homepage></Homepage>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+      </Routes>
+  
     </>
   )
 }

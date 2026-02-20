@@ -1,13 +1,15 @@
 
 
 nav {
-    height: 15vh;
+    min-height: 12vh;
     width: 100%;
     display: flex;
     position: fixed;
     top: 0px;
     overflow: visible;
     z-index: 4;
+    justify-content: space-between;
+    
 }
 #img-logo {
     text-align: center;
@@ -32,7 +34,6 @@ nav {
     cursor: pointer;
 }
 .nav-one {
-    height: 100px;
     flex: 1;
     background-color: #60BFC4;
     transform: skewX(25deg);
@@ -42,8 +43,6 @@ nav {
 }
 
 .nav-two {
-    
-    height: 100px;
     flex: 1;
     display: flex;
     font-family: cursive;
@@ -59,7 +58,8 @@ nav {
     background-color: #60BFC4;
     color: #1F6373;
     align-content: end;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
 .btn-two {
     flex: 2;
@@ -68,6 +68,7 @@ nav {
     color: #1F6373;
     align-content: start;
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 .btn-three {
     flex: 2;
@@ -97,7 +98,6 @@ button:hover {
 }
 
 .nav-three {
-    height: 100px;
     flex: 1;
     background-color: #60BFC4;
     align-items: center;

@@ -1,26 +1,37 @@
 footer {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
     max-width: 100%;
     width: 100%;
     margin: 8vh auto 0vh auto;
-    height: 15vh;
+    min-height: 12vh;
+    position: relative;
+    overflow: visible;
+    
 }
-footer >.footer1,.footer2, .footer3 {
-    width: 900px;
+footer >.footer1,
+footer >.footer2, 
+footer > .footer3 {
+    min-width: 200px;
     text-align: center;
     background-color: #C8DB82;
     flex: 1;
     min-width: 250px;
-    outline: 1px white solid;
+    position: relative;
+
 }
 .footer1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.footer2 {
+    position: relative;
+    z-index: 5;
+    
+}
 
 .Icon {
     height: 100px;
@@ -41,11 +52,18 @@ footer >.footer1,.footer2, .footer3 {
 .social-media {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
-    outline: 1px black solid;
+    
 }
-#fb-icon {
-    margin-top: 40px;
+.f-btn-one {
+    padding-bottom: 10px;
+}
+.f-btn-two {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-content: end;
+}
+.f-btn-three {
+    padding-bottom: 10px;
 }
 
 .footer3 {
@@ -79,10 +97,35 @@ footer >.footer1,.footer2, .footer3 {
     /* Trying to get the hover effect to display over the background color
     so far the below attributes are not working */
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 }
 .Icon:hover {
     outline: 20px dotted #60BFC4;
+}
+
+.f-btn-one {
+    flex: 2;
+    text-align: start;
+    background-color: #C8DB82;
+    color: #1F6373;
+    align-content: end;
+    margin-bottom: 5px;
+}
+.f-btn-two {
+    flex: 2;
+    text-align: center;
+    background-color: #C8DB82;
+    color: #1F6373;
+    align-content: start;
+    margin-top: 5px;
+}
+.f-btn-three {
+    flex: 2;
+    text-align: end;
+    background-color: #C8DB82;
+    color: #1F6373;
+    align-content: end;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 1040px) {

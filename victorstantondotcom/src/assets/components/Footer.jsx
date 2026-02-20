@@ -8,7 +8,7 @@ function Footer() {
 
 
     <footer>
-      <div class="footer1">
+      <div className="footer1">
         <a href="./index.html">
           <img 
           src={logo}
@@ -17,26 +17,20 @@ function Footer() {
           />
         </a>
       </div>
-      <div class="footer2">
-        <div class="social-media">
-          <div>
-            <a href="">
-              <img src="../images/IG.png" alt="IG Icon" class="Icon" />
-            </a>
+      <div className="footer2">
+        <div className="social-media">
+          <div className='f-btn-one'>
+              <button>Home</button>
           </div>
-          <div>
-            <a href="" >
-              <img src="../images/Facebook.png" alt="Facebook Icon" class="Icon"id="fb-icon" />
-            </a>
+          <div className='f-btn-two'>
+              <button>About</button>
           </div>
-          <div>
-            <a href="">
-              <img src="../images/Twitter.png" alt="Twitter Icon" class="Icon" />
-            </a>
+          <div className='f-btn-three'>
+              <button>Contact</button>
           </div>
         </div>
       </div>
-      <div class="footer3">
+      <div className="footer3">
         <div>
             <p id="tos"><a href="">Terms of Service</a></p>
         </div>
