@@ -120,8 +120,9 @@ button:hover {
     #logo {
         top: 20px;
         left: 20px;
+        height: 6vh;
+        width: auto;
     }
-
     .nav-one {
         background-color: transparent;
         flex: 0;
