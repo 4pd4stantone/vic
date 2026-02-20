@@ -1,18 +1,18 @@
 
 
 .hero {
-    width: auto;
-    margin: 0px auto;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    outline: 1px red solid;
+ 
 }
 
 .hero>.hero-header {
-    padding: 50px 250px 50px 250px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: auto;
-    /* outline: 1px red solid; */
+     margin-top: auto;
+    align-self: center; 
+    outline: 1px red solid;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* outline: 10px solid black; */
+    outline: 10px solid black;
     justify-content: space-around;
    
 }
