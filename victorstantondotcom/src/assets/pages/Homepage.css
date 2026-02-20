@@ -108,7 +108,7 @@ h3 {
 @media (max-width: 820px) {
      .hero {
     outline: 1px red solid;
-    padding-top: 20%;
+    padding-top: 30%;
     width: 75%;
     padding-left: 25%;
   }
