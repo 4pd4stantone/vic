@@ -3,7 +3,7 @@
 .hero {
     display: flex;
     flex-direction: column;
-    min-height: 98vh; 
+    min-height: 95vh; 
     /* outline: 1px red solid; */
 }
 
@@ -11,7 +11,7 @@
      margin-top: auto;
     align-self: center; 
     /* outline: 1px red solid; */
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 h1 {
