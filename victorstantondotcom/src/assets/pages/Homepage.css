@@ -4,13 +4,11 @@
     display: flex;
     flex-direction: column;
     min-height: 95vh; 
-    /* outline: 1px red solid; */
 }
 
 .hero>.hero-header {
      margin-top: auto;
     align-self: center; 
-    /* outline: 1px red solid; */
     padding-bottom: 80px;
 }
 
@@ -39,7 +37,6 @@ h1 {
 #central-img {
     width: auto;
     height: 60vh;
-
 }
 
 .outerbox > .innerbox1 {
@@ -117,6 +114,7 @@ h3 {
     margin-right: auto; */
     text-align: center;
     width: 100%;
+    padding-bottom: 20px;
     }
     .hero-central {
     flex-direction: column;
