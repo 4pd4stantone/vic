@@ -1,0 +1,32 @@
+
+#mt-title {
+    padding: 8% 0 0% 0;
+    text-align: center;
+    /* outline: 3px red solid; */
+}
+
+.mt-main {
+    /* outline: 3px red solid; */
+    display: flex
+}
+
+#mt-pic {
+    width: 30%;
+    /* outline: 3px red solid; */
+    display: block;
+    margin: 0 auto ;
+}
+
+#mt-text {
+    width: 30%;
+    text-align: center;
+    /* outline: 3px red solid; */
+    display: block;
+    margin: 0 auto ;
+}
+
+
+@media (max-width: 820px) {
+  
+    
+}
