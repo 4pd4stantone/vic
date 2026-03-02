@@ -1,5 +1,6 @@
 import "./MovementTherapy.css";
-import MT from "../images/MT-Pic.png"
+import MT from "../images/MT-Pic.png";
+import ModelU from "../images/modelU.jpg"
 
 
 function MovementTherapy() {
@@ -7,12 +8,19 @@ function MovementTherapy() {
 
   return (
     <>
-      <main>
-          <h1 id='mt-title'>Movement Therapy</h1>
+      <main >
+          <h1 id='mt-title'>Movement Therapist</h1>
           <div className="mt-main">
             <img id='mt-pic' src={MT} alt="Victor Stanton Movement Therapist" />
-            <p id='mt-text'>
-              I am a Licensed Massage Therapist and Certified Strength & Conditioning Specialist with experience in physiotherapy clinics, athletic performance settings, and holistic fitness environments across New York City. My work integrates deep tissue and Swedish massage, proprioceptive neuromuscular facilitation stretching, range-of-motion therapy, and individualized strength programming to restore mobility, reduce pain, and improve performance. I have treated clients ranging from general wellness patients to individuals with amputations. My background also includes years of strength coaching and movement therapy at Attune Holistic Fitness, where I built programs focused on fat loss, injury prevention, and long-term functional strength.
+            <p className='mt-text'>
+              Victor Stanton is a Licensed Massage Therapist and Certified Strength & Conditioning Specialist with a degree in Exercise Science from Marquette University. Victor has experience working in physiotherapy clinics, athletic performance facilities, and boutique gyms across New York City. He combines deep tissue massage with myofascial release, PNF stretching, range-of-motion therapy, and strength programming to restore mobility and reduce pain. His clients range from everyday wellness patients and competitive athletes to individuals recovering from complex physical conditions.
+            </p>
+          </div>
+          <h1 id='mt-title'>Physique Competitor</h1>
+          <div className="mt-main">
+            <img id='mt-pic' src={ModelU} alt="Victor Stanton Model Universe" />
+            <p className='mt-text'>
+              Shaped by his background in Exercise Science and his experience as a competitive physique athlete, Victor won the Model New York Physique Competition in 2011 and placed in the Top 5 at the Model Universe Physique Competition in 2012. These achievements strengthened his understanding of training cycles, recovery, nutrition, and biomechanics, knowledge he now applies to help clients build strong, resilient, and balanced bodies.
             </p>
           </div>
       </main>
