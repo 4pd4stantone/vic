@@ -13,7 +13,7 @@ function MovementTherapy() {
           <div className="mt-main">
             <img id='mt-pic' src={MT} alt="Victor Stanton Movement Therapist" />
             <p className='mt-text'>
-              Victor Stanton is a Licensed Massage Therapist and Certified Strength & Conditioning Specialist with a degree in Exercise Science from Marquette University. Victor has experience working in physiotherapy clinics, athletic performance facilities, and boutique gyms across New York City. He combines deep tissue massage with myofascial release, PNF stretching, range-of-motion therapy, and strength programming to restore mobility and reduce pain. His clients range from everyday wellness patients and competitive athletes to individuals recovering from complex physical conditions.
+              Victor Stanton is a Licensed Massage Therapist and Certified Strength & Conditioning Specialist with a degree in Exercise Science from Marquette University. Victor has experience working in physiotherapy clinics, athletic performance facilities, and boutique gyms across New York City. He combines deep tissue massage with myofascial release, PNF stretching, range-of-motion therapy, and strength programming to restore mobility and reduce pain. His clients range from everyday wellness patients to competitive athletes and individuals recovering from complex physical conditions.
             </p>
           </div>
           <h1 id='mt-title'>Physique Competitor</h1>
