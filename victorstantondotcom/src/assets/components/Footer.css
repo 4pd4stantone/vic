@@ -47,6 +47,7 @@ footer > .footer3 {
 }
 #footer-logo:hover {
     outline: 20px dotted #369B76;
+    cursor: pointer;
 } 
 
 .social-media {

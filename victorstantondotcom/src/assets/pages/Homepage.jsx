@@ -23,7 +23,9 @@ function Homepage() {
           <div className="outerbox" id="outbox1">
             <div className="innerbox1" id="smlbox1">
               <div className="xsmlbox1">
-                <h3 className="left-title">Registered Nurse, BSN</h3>
+                <Link to="/nursing" className="link">
+                  <h3 className="left-title">Registered Nurse, BSN</h3>
+                </Link>
                 <p className="hero-paragraph" id="ni-paragraph">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Corrupti qui ut sapiente sequi minus.
@@ -31,17 +33,21 @@ function Homepage() {
               </div>
               <div className="xsmlbox2">
                 <a href="">
-                  <img
-                    src={Syringe}
-                    alt="Syringe Icon"
-                    id="syringe"
-                  />
+                  <Link to="/nursing" className="link">
+                    <img
+                      src={Syringe}
+                      alt="Syringe Icon"
+                      id="syringe"
+                    />
+                  </Link>
                 </a>
               </div>
             </div>
             <div className="innerbox1" id="smlbox2">
               <div className="xsmlbox1">
-                <h3 className="left-title">Massage Therapist, LMT</h3>
+                 <Link to="/movement-therapy" className="link">
+                  <h3 className="left-title">Massage Therapist, LMT</h3>
+                </Link>
                 <p className="hero-paragraph" id="lmt-paragraph">
                   Massage Therapist specializing in deep tissue, myofascial release, and PNF techniques to improve mobility and relieve pain.
                 </p>
@@ -63,12 +69,15 @@ function Homepage() {
           <div className="outerbox" id="outbox3">
             <div className="innerbox2" id="smlbox3">
               <div className="xsmlbox2">
-                <a href="../SoftwareEngineering/softengineering.html"
-                  ><img src={Tag} alt="Tag Icon" id="tag"
-                /></a>
+                <Link to="/software-engineering" className="link">
+                  <img src={Tag} alt="Tag Icon" id="tag"
+                  />
+                </Link>
               </div>
               <div className="xsmlbox1">
-                <h3>Software Engineering, Per Scholas</h3>
+                <Link to="/software-engineering" className="link">
+                  <h3>Software Engineering, Per Scholas</h3>
+                </Link>
                 <p className="hero-paragraph">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Corrupti qui ut sapiente sequi minus.
@@ -77,7 +86,7 @@ function Homepage() {
             </div>
             <div className="innerbox2" id="smlbox4">
               <div className="xsmlbox2">
-                <Link to="/movement-therapy">
+                <Link to="/movement-therapy" className="link">
                   <img
                     src={PT}
                     alt="Personal Training Icon"
@@ -86,7 +95,9 @@ function Homepage() {
                   </Link>
               </div>
               <div className="xsmlbox1">
+                <Link to="/movement-therapy" className="link">
                 <h3>Personal Trainer, CSCS, BS</h3>
+                </Link>
                 <p className="hero-paragraph">
                   Certified Strength & Conditioning Specialist creating programs to improve strength, mobility, and body composition.
                 </p>

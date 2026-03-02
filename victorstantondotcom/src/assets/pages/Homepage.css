@@ -84,6 +84,14 @@ h3 {
     font-size: 3vh;
     color: #1c5460;
     /* outline: 3px black solid; */
+    
+}
+.link {
+    text-decoration: none;
+}
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .left-title {
     text-align: right;
