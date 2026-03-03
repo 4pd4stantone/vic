@@ -1,6 +1,7 @@
 import Homepage from './assets/pages/Homepage.jsx';
 import { Route, Routes } from 'react-router'
 import MovementTherapy from './assets/pages/MovementTherapy.jsx';
+import Nursing from './assets/pages/Nursing.jsx';
 import NavBar from "./assets/components/NavBar.jsx";
 import Footer from "./assets/components/Footer.jsx"
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/movement-therapy" element={<MovementTherapy/>}/>
+          <Route path="/nursing" element={<Nursing/>}/>
         </Routes>
       <Footer></Footer>
     </>

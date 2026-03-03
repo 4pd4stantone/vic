@@ -129,6 +129,9 @@ footer > .footer3 {
     align-content: end;
     margin-bottom: 5px;
 }
+.link {
+    color: #1c5460;
+}
 
 @media (max-width: 1040px) {
     footer {

@@ -27,8 +27,7 @@ function Homepage() {
                   <h3 className="left-title">Registered Nurse, BSN</h3>
                 </Link>
                 <p className="hero-paragraph" id="ni-paragraph">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti qui ut sapiente sequi minus.
+                  Nurse Supervisor with a track record of leading nursing teams, digitalizing clinical programs, and building tracking systems that improve accuracy, efficiency, and patient outcomes.
                 </p>
               </div>
               <div className="xsmlbox2">
