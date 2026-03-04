@@ -1,16 +1,16 @@
 
-#mt-title {
+#rn-title {
     padding: 8% 0 0% 0;
     text-align: center;
     /* outline: 3px red solid; */
       font-size: 4rem;
 }
-.mt-main {
+.rn-main {
     /* outline: 3px #369B76 solid; */
     display: flex;
 }
 
-#mt-pic {
+#rn-pic {
     width: 20%;
     height: auto;
     outline: 3px #60BFC4 solid;
@@ -21,7 +21,7 @@
     object-fit: cover;
 }
 
-.mt-text {
+.rn-text {
     width: 25%;
     height: auto;
     text-align: left;
@@ -29,7 +29,7 @@
     margin: 50px auto 50px 50px ;
     line-height: 1.4;
 }
-.mt-text::first-letter {
+.rn-text::first-letter {
     font-size: 4rem;
     font-weight: 700;
     color: #1c5460;
@@ -44,9 +44,17 @@
 }
 
 .rn-projects {
-    outline: 5px purple solid;
+    /* outline: 5px purple solid; */
+    width: 50%;
+    margin: 0 auto;
 }
-
+.sub-title {
+    padding: 0;
+    /* outline: 3px red solid; */
+}
+#manual-link {
+    color: #1c5460;
+}
 @media (max-width: 820px) {
     .mt-main {
     display: block;

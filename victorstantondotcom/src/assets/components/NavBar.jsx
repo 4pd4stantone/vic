@@ -2,7 +2,7 @@ import './NavBar.css'
 import logo from '../images/logo-SE-F.png'
 import { Link } from 'react-router'
 
-function NavBar() {
+function NavBar(justLogo, setJustLogo) {
 
 
   return (
@@ -14,7 +14,6 @@ function NavBar() {
                 <img src={logo} alt="" id='logo'/>
                 </Link>
             </div>
-            
             <div className='nav-one'>
             </div>
             <div className='nav-two'>
@@ -39,6 +38,7 @@ function NavBar() {
                 <h1 className='name'>Victor Stanton</h1>
               </Link>
             </div>
+            }
       </nav>
     </>
   )

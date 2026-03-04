@@ -5,11 +5,11 @@ import Syringe from "../images/Syring2.png";
 import LMT from "../images/LMT.png";
 import Tag from "../images/tag.png";
 import PT from "../images/PT.png"
-import MovementTherapy from "./MovementTherapy.jsx";
 import { Link } from 'react-router'
 
 function Homepage() {
 
+  
 
   return (
     <>

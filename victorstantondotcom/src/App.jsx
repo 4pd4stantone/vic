@@ -3,20 +3,27 @@ import { Route, Routes } from 'react-router'
 import MovementTherapy from './assets/pages/MovementTherapy.jsx';
 import Nursing from './assets/pages/Nursing.jsx';
 import NavBar from "./assets/components/NavBar.jsx";
-import Footer from "./assets/components/Footer.jsx"
+import Footer from "./assets/components/Footer.jsx";
+import { useState, useEffect } from 'react';
+import SimpleNav from './assets/components/SimpleNav.jsx';
+import MFCManual from './assets/pages/MFCManual.jsx';
 
 function App() {
+
+    let [simpleNav, setSimpleNav] = useState(false)
+
 
 
   return (
     <>
-      <NavBar></NavBar>
+      {simpleNav ? <SimpleNav simpleNav={simpleNav} setSimpleNav={setSimpleNav}/> : <NavBar simpleNav={simpleNav} setSimpleNav={setSimpleNav} />}
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/movement-therapy" element={<MovementTherapy/>}/>
           <Route path="/nursing" element={<Nursing/>}/>
+          <Route path='/nursing/nursing-manual' element={<MFCManual simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
         </Routes>
-      <Footer></Footer>
+      {simpleNav ? "" : <Footer></Footer>}
     </>
   )
 }

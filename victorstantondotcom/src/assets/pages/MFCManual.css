@@ -1,0 +1,17 @@
+
+
+
+#manual {
+    width: 50%;
+    margin: 5% auto;
+    /* outline: 3px purple solid; */
+}
+#manual-title {
+    text-align: center;
+}
+.manual-img {
+    width: 100%;
+    box-shadow: -10px -10px 10px #68c8e0;
+    margin-bottom: 5%;
+    outline: #68c8e0 1px solid;
+}
