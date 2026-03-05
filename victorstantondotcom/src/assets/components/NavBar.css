@@ -18,14 +18,14 @@ nav {
     
 }
 #logo {
-    height: 8vh;
+    height: 14vh;
     width: auto;
     transition: outline 1.5s ease-in;
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    padding: 40px;
-    left: 10px;
+    top: 4vh;
+    padding: 6vh;
+    left: 2vh;
     box-shadow: -10px -10px 35px #369B76;
     outline: 2px solid #60BFC4;
     background-color: white;
