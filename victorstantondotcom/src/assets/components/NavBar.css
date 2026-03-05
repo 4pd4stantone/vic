@@ -15,9 +15,10 @@ nav {
     text-align: center;
     flex: 2;
     position: fixed;
+    
 }
 #logo {
-    height:80px;
+    height: 8vh;
     width: auto;
     transition: outline 1.5s ease-in;
     border-radius: 50%;
@@ -84,7 +85,7 @@ button {
     height: 11vh;
     width:11vh;
     font-family: cursive;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #01a98e;
     color: white;
     border: 0px;
