@@ -8,7 +8,7 @@ function MovementTherapy() {
 
   return (
     <>
-      <main >
+      <main id="main-tag">
           <h1 id='mt-title'>Movement Therapist</h1>
           <div className="mt-main">
             <img id='mt-pic' src={MT} alt="Victor Stanton Movement Therapist" />
