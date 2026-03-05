@@ -8,12 +8,11 @@ function NavBar(justLogo, setJustLogo) {
   return (
     <>
       <nav>
-            
-            <div id='img-logo'>
-                <Link to={"/"}>
-                <img src={logo} alt="" id='logo'/>
-                </Link>
-            </div>
+            <Link to={"/"}>
+              <div id='img-logo'>
+                  <img src={logo} alt="" id='logo'/>
+              </div>
+            </Link>
             <div className='nav-one'>
             </div>
             <div className='nav-two'>
