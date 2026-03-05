@@ -23,15 +23,15 @@ nav {
     transition: outline 1.5s ease-in;
     border-radius: 50%;
     position: absolute;
-    top: 4vh;
+    top: 3vh;
     padding: 6vh;
-    left: 2vh;
-    box-shadow: -10px -10px 35px #369B76;
-    outline: 2px solid #60BFC4;
+    left: 1vw;
+    box-shadow: -2vh -2vh 5vh #369B76;
+    outline: .5vh solid #60BFC4;
     background-color: white;
 }
 #logo:hover {
-    outline: 20px dotted #369B76;
+    outline: 3vh dotted #369B76;
     cursor: pointer;
 }
 .nav-one {
@@ -57,8 +57,8 @@ nav {
     background-color: #60BFC4;
     color: #1F6373;
     align-content: end;
-    padding-bottom: 5px;
-    padding-top: 10px;
+    padding-bottom: 1vh;
+    padding-top: 3vh;
 }
 .btn-two {
     flex: 2;
@@ -66,8 +66,8 @@ nav {
     background-color: #60BFC4;
     color: #1F6373;
     align-content: start;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
 }
 .btn-three {
     flex: 2;
@@ -75,7 +75,8 @@ nav {
     background-color: #60BFC4;
     color: #1F6373;
     align-content: end;
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
 }
 
 button {
@@ -86,13 +87,13 @@ button {
     font-size: 2.8vh;
     background-color: #01a98e;
     color: white;
-    border: 0px;
+    border: 0;
     cursor: pointer;
     transition: outline 1.5s ease-in;
 }
 button:hover {
     text-decoration: underline;
-    outline: 15px dotted #369B76;
+    outline: 2.5vh dotted #369B76;
 
 }
 
@@ -117,8 +118,8 @@ button:hover {
 
 @media (max-width: 820px) {
     #logo {
-        top: 20px;
-        left: 15px;
+        top: 3vh;
+        left: 2vw;
         height: 6vh;
         width: auto;
     }
@@ -128,11 +129,8 @@ button:hover {
     }
     .nav-two {
         flex-direction: column;
-        height: 100px;
         flex: 1;
         display: flex;
-        font-family: cursive;
-        font-size: 16px;
         background-color: transparent;
         z-index: 1;
     }
@@ -140,31 +138,29 @@ button:hover {
         background-color: transparent;
         align-content: start;
         text-align: start;
-        margin: 225px 0px 0px 20px;
-      
+        margin: 25vh 0 0 2vh;
+        /* outline: 1px red solid; */
+        width: 18vw;
     }
     .btn-two {
         background-color: transparent;
         align-content: start;
         text-align: start;
-        margin: 20px 0px 0px 20px;
+        margin: 2vh 0 0 2vh;
+        /* outline: 1px red solid; */
+        width: 18vw;
     }
     .btn-three {
         background-color: transparent;
         align-content: start;
         text-align: start;
-        margin: 20px 0px 0px 20px;
+        margin: 2vh 0 0 2vh;
+        /* outline: 1px red solid; */
+        width: 18vw;
     }
     
     .nav-three {
         display: none;
-    }
-
-    .name {
-        font-size: 26px;
-        color: #1c5460;
-        font-style: italic;
-        margin: 5px 100px 0 0;
     }
 
     .name:hover {
