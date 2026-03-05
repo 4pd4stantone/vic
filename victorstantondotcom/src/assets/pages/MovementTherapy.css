@@ -42,19 +42,12 @@
 @media (max-width: 820px) {
     .mt-main {
     display: block;
-    outline: 3px red solid;
+ 
     }
     #main-tag {
     padding-top: 15vh;
     width: 70%;
     padding-left: 30%;
-    outline: 3px red solid;
-    }
-    #mt-title {
-    padding: 8% 0 0% 0;
-    text-align: center;
-    outline: 3px red solid;
-      font-size: 3rem;
     }
     #mt-pic {
     height: auto;
