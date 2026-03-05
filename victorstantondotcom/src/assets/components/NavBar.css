@@ -9,13 +9,13 @@ nav {
     z-index: 4;
     justify-content: space-between;
 }
-#img-logo {
+#img-logo, #simple-img-logo {
     text-align: center;
     flex: 2;
     position: fixed;
     
 }
-#logo {
+#logo, #simple-logo {
     height: 14vh;
     width: auto;
     transition: outline 1.5s ease-in;
@@ -130,6 +130,13 @@ button:hover {
         justify-content: center;
         z-index: 10;
         -webkit-tap-highlight-color: transparent;
+    }
+    #simple-img-logo {
+        top: -1vh;
+    }
+    #simple-logo {
+        height: 8vh;
+        padding: 2vh;
     }
     #logo {
     

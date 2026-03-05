@@ -11,11 +11,9 @@ function handleHomeClick() {
   return (
     <>
       <nav> 
-            <div id='img-logo'>
-                <Link to={"/"}>
-                <img src={logo} alt="logo" id='logo'onClick={handleHomeClick}/>
+                <Link to={"/"} id='simple-img-logo'>
+                <img src={logo} alt="logo" id='simple-logo'onClick={handleHomeClick}/>
                 </Link>
-            </div>
       </nav>
     </>
   )
