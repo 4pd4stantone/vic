@@ -17,7 +17,7 @@ function Homepage() {
       <main>
       <section className="hero">
         <div className="hero-header">
-          <h1>Victor Stanton</h1>
+          <h1 className="main-title">Victor Stanton</h1>
         </div>
         <div className="hero-central">
           <div className="outerbox" id="outbox1">
@@ -75,7 +75,7 @@ function Homepage() {
               </div>
               <div className="xsmlbox1">
                 <Link to="/software-engineering" className="link">
-                  <h3>Software Engineering, Per Scholas</h3>
+                  <h3 className="right-title">Software Engineering, Per Scholas</h3>
                 </Link>
                 <p className="hero-paragraph">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -95,7 +95,7 @@ function Homepage() {
               </div>
               <div className="xsmlbox1">
                 <Link to="/movement-therapy" className="link">
-                <h3>Personal Trainer, CSCS, BS</h3>
+                <h3 className="right-title">Personal Trainer, CSCS, BS</h3>
                 </Link>
                 <p className="hero-paragraph">
                   Certified Strength & Conditioning Specialist creating programs to improve strength, mobility, and body composition.
