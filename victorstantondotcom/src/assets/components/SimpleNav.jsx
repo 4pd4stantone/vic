@@ -1,4 +1,4 @@
-import './SimpleNav.css'
+import './NavBar.css'
 import logo from '../images/logo-SE-F.png'
 import { Link } from 'react-router'
 
