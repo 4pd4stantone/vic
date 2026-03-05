@@ -1,5 +1,4 @@
 
-
 nav {
     min-height: 12vh;
     width: 100%;
@@ -9,7 +8,6 @@ nav {
     overflow: visible;
     z-index: 4;
     justify-content: space-between;
-    
 }
 #img-logo {
     text-align: center;
@@ -117,6 +115,9 @@ button:hover {
 }
 
 @media (max-width: 820px) {
+    nav {
+        width: 30vw;
+    }
     #logo {
         top: 3vh;
         left: 2vw;
@@ -126,6 +127,7 @@ button:hover {
     .nav-one {
         background-color: transparent;
         flex: 0;
+       
     }
     .nav-two {
         flex-direction: column;
@@ -133,6 +135,7 @@ button:hover {
         display: flex;
         background-color: transparent;
         z-index: 1;
+        
     }
     .btn-one {
         background-color: transparent;
