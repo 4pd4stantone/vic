@@ -22,17 +22,17 @@ function Footer() {
         <div className="social-media">
           <div className='f-btn-one'>
             <Link to="/" className='link'>
-              <button>Home</button>
+              <button className="foot-btn">Home</button>
             </Link>
           </div>
           <div className='f-btn-two'>
             <Link to="/about" className='link'>
-              <button>About</button>
+              <button className="foot-btn">About</button>
             </Link>
           </div>
           <div className='f-btn-three'>
             <Link to="/about" className='link'>
-              <button>Contact</button>
+              <button className="foot-btn">Contact</button>
             </Link>
           </div>
         </div>

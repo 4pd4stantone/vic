@@ -16,17 +16,17 @@ function NavBar(justLogo, setJustLogo) {
             <div className='nav-two'>
                 <div className='btn-one'>
                   <Link to="/" className='link'>
-                    <button>Home</button>
+                    <button className='nav-btn'>Home</button>
                   </Link>
                 </div>
                 <div className='btn-two'>
                   <Link to="/about" className='link'>
-                    <button>About</button>
+                    <button className='nav-btn'>About</button>
                   </Link>
                 </div>
                 <div className='btn-three'>
                   <Link to="/contact" className='link'>
-                    <button>Contact</button>
+                    <button className='nav-btn'>Contact</button>
                   </Link>
                 </div>
             </div>

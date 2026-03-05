@@ -79,7 +79,7 @@ nav {
     margin-top: 3vh;
 }
 
-button {
+.nav-btn {
     border-radius: 50%;
     height: 11vh;
     width:11vh;
@@ -91,9 +91,9 @@ button {
     cursor: pointer;
     transition: outline 1.5s ease-in;
 }
-button:hover {
+.nav-btn:hover {
     text-decoration: underline;
-    outline: 2.5vh dotted #369B76;
+    outline: 2.6vh dotted #369B76;
 
 }
 

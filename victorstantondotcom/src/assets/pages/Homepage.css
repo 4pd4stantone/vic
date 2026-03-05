@@ -9,7 +9,7 @@
 .hero>.hero-header {
      margin-top: auto;
     align-self: center; 
-    padding-bottom: 80px;
+    padding-bottom: 10vh;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h1 {
     
 }
 .xsmlbox2:hover {
-    outline: 20px dotted #60BFC4;
+    outline: 2.9vh dotted #60BFC4;
 
 }
 .hero-paragraph {
