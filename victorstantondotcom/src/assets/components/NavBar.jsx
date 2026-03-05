@@ -38,7 +38,6 @@ function NavBar(justLogo, setJustLogo) {
                 <h1 className='name'>Victor Stanton</h1>
               </Link>
             </div>
-            }
       </nav>
     </>
   )
