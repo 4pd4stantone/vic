@@ -39,6 +39,7 @@ nav {
     position: relative;
     left: 20vw;
     z-index: -1;
+    
 }
 
 .nav-two {
@@ -118,12 +119,24 @@ button:hover {
     nav {
         width: 30vw;
     }
+    #img-logo {
+        position: fixed;
+        left: 3vw;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: -2vh -2vh 5vh #369B76;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        -webkit-tap-highlight-color: transparent;
+    }
     #logo {
-        top: 3vh;
-        left: 2vw;
-        height: 6vh;
+      
+        height: 10vh;
         width: auto;
     }
+    
     .nav-one {
         background-color: transparent;
         flex: 0;
@@ -135,23 +148,22 @@ button:hover {
         display: flex;
         background-color: transparent;
         z-index: 1;
-        
     }
     .btn-one {
         background-color: transparent;
         align-content: start;
         text-align: start;
         margin: 25vh 0 0 2vh;
-        /* outline: 1px red solid; */
-        width: 18vw;
+
+        width: 22vw;
+       
     }
     .btn-two {
         background-color: transparent;
         align-content: start;
         text-align: start;
         margin: 2vh 0 0 2vh;
-        /* outline: 1px red solid; */
-        width: 18vw;
+        width: 22vw;
     }
     .btn-three {
         background-color: transparent;
@@ -159,16 +171,11 @@ button:hover {
         text-align: start;
         margin: 2vh 0 0 2vh;
         /* outline: 1px red solid; */
-        width: 18vw;
+        width: 22vw;
     }
     
     .nav-three {
         display: none;
-    }
-
-    .name:hover {
-        text-decoration: underline;
-        cursor: pointer;
     }
    
 }
