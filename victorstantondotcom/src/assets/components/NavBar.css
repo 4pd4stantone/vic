@@ -39,15 +39,13 @@ nav {
     background-color: #60BFC4;
     transform: skewX(25deg);
     position: relative;
-    left: 250px;
+    left: 20vw;
     z-index: -1;
 }
 
 .nav-two {
     flex: 1;
     display: flex;
-    font-family: cursive;
-    font-size: 16px;
     background-color: #60BFC4;
     z-index: 1;
     
