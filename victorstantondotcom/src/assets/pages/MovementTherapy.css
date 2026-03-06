@@ -49,9 +49,9 @@
         width: 100%;
         /* outline: red 1px solid; */
         font-size: 6vh;
+        padding-top: 4vh;
     }
     #main-tag {
-    padding-top: 15vh;
     width: 70%;
     padding-left: 30%;
     /* outline: red 1px solid; */
