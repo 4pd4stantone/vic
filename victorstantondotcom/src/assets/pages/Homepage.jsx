@@ -31,7 +31,6 @@ function Homepage() {
                 </p>
               </div>
               <div className="xsmlbox2">
-                <a href="">
                   <Link to="/nursing" className="link">
                     <img
                       src={Syringe}
@@ -39,7 +38,6 @@ function Homepage() {
                       id="syringe"
                     />
                   </Link>
-                </a>
               </div>
             </div>
             <div className="innerbox1" id="smlbox2">

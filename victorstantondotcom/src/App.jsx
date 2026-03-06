@@ -7,6 +7,7 @@ import Footer from "./assets/components/Footer.jsx";
 import { useState, useEffect } from 'react';
 import SimpleNav from './assets/components/SimpleNav.jsx';
 import MFCManual from './assets/pages/MFCManual.jsx';
+import About from './assets/pages/About.jsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/movement-therapy" element={<MovementTherapy/>}/>
           <Route path="/nursing" element={<Nursing/>}/>
           <Route path='/nursing/nursing-manual' element={<MFCManual simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
+          <Route path="/about" element={<About/>}/>
         </Routes>
       {simpleNav ? "" : <Footer></Footer>}
     </>

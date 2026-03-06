@@ -1,0 +1,57 @@
+
+#about-title {
+    padding: 16vh 0 0 0;
+    text-align: center;
+    /* outline: 3px red solid; */
+    font-size: 10vh;
+    color: #1c5460;
+}
+.about-main {
+    /* outline: 3px #369B76 solid; */
+    display: block;
+}
+
+.about-text {
+    width: 50vw;
+    height: auto;
+    margin: 5vh auto 5vh auto ;
+    line-height: 1.4;
+    font-size: 2.5vh;
+}
+.about-text::first-letter {
+    font-size: 10vh;
+    font-weight: 700;
+    color: #1c5460;
+    float: left;
+    margin-right: 1.5vh;
+    line-height: 1;
+}
+
+@media (max-width: 820px) {
+    .about-main {
+    display: block;
+    /* outline: 1px red solid; */
+    }
+    #about-main-tag {
+    padding-top: 20vh;
+    width: 70%;
+    padding-left: 30%;
+     /* outline: 1px red solid; */
+    }
+    #about-title {
+    padding: 10% 0 0 0;
+    text-align: center;
+    /* outline: 3px red solid; */
+      font-size: 6vh;
+    }
+
+    .about-text {
+        width: 90%;
+        height: auto;
+        text-align: left;
+        /* outline: 3px #369B76 solid; */
+        margin: 10% auto;
+        line-height: 1.4;
+    }
+    
+}
