@@ -8,7 +8,7 @@ function Nursing() {
 
   return (
     <>
-      <main >
+      <main id="main-tag">
           <h1 id='rn-title'>Registered Nurse</h1>
           <div className="rn-main">
             <img id='rn-pic' src={RN} alt="Nurse Stanton" />
@@ -20,9 +20,9 @@ function Nursing() {
           <div className="rn-projects">
               <h3 className="sub-title">Medical Foster Care Program</h3>
               <h3 className="sub-title">Nurse Case Manager Orientation Manual</h3>
-                <p>Serving as Nurse Case Manager Supervisor, Victor Stanton led the project to update the Nurse Case Manager Orientation Manual, which had expanded over time and required clearer organization and updated content. Over six months, he transformed it into a comprehensive 105 page guide by updating policies, clarifying procedures, and adding new protocols for communication, on call coverage, prescription management, home visits, intake, and discharge processes. He organized the material into clear step by step instructions, standardized documentation practices, and a well defined Nurse Case Manager role. In addition to writing and editing the content, he redesigned the entire document to create a clean, professional layout that improved usability. The final manual provides a structured and practical framework that supports consistency, accountability, and high quality care across the program.
+                <p className="rn-text-projects">Serving as Nurse Case Manager Supervisor, Victor Stanton led the project to update the Nurse Case Manager Orientation Manual, which had expanded over time and required clearer organization and updated content. Over six months, he transformed it into a comprehensive 105 page guide by updating policies, clarifying procedures, and adding new protocols for communication, on call coverage, prescription management, home visits, intake, and discharge processes. He organized the material into clear step by step instructions, standardized documentation practices, and a well defined Nurse Case Manager role. In addition to writing and editing the content, he redesigned the entire document to create a clean, professional layout that improved usability. The final manual provides a structured and practical framework that supports consistency, accountability, and high quality care across the program.
                 </p>
-                <p>To preview the structure and design of the manual, please follow the link below to view the front cover and table of contents:
+                <p className="rn-text-projects">To preview the structure and design of the manual, please follow the link below to view the front cover and table of contents:
                 </p>
                 <Link id='manual-link' to='/nursing/nursing-manual'>MFC NCM Orientation Manuel</Link>
               
