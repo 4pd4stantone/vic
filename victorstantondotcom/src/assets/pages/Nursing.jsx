@@ -23,7 +23,7 @@ function Nursing() {
                 </p>
                 <p className="rn-text-projects">To preview the structure and design of the manual, please follow the link below to view the front cover and table of contents:
                 </p>
-                <Link id='manual-link' to='/nursing/nursing-manual'>Orientation Manuel</Link>
+                <Link id='manual-link' to='/nursing/nursing-manual'>Nurse Case Manager Orientation Manuel</Link>
               <h3 className="sub-title">Other Nursing Projects</h3>
                 <ul>
                   <li></li>
