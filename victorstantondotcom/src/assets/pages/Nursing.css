@@ -76,19 +76,18 @@
      /* outline: 1px red solid; */
     }
     #rn-title, #rn-projects-title {
-    padding: 10% 0 0% 0;
+    padding: 4vh 0 0 0;
+    width: 100%;
     text-align: center;
     /* outline: 3px red solid; */
-      font-size: 3rem;
+      font-size: 6vh;
     }
     #rn-pic {
     width: 90%;
     height: auto;
-    outline: 3px #60BFC4 solid;
     border-radius: 30%;
     display: block;
     margin: auto;
-    box-shadow: -10px -10px 35px #369B76;
     object-fit: cover;
     }
 

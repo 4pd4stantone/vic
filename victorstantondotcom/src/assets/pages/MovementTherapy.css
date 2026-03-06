@@ -45,17 +45,20 @@
     /* outline: red 1px solid; */
  
     }
-    #mt-title {
-        width: 100%;
-        /* outline: red 1px solid; */
-        font-size: 6vh;
-        padding-top: 4vh;
-    }
     #main-tag {
+    padding-top: 20vh;
     width: 70%;
     padding-left: 30%;
     /* outline: red 1px solid; */
     }
+    #mt-title {
+        padding: 4vh 0 0 0;
+        width: 100%;
+        /* outline: red 1px solid; */
+        font-size: 6vh;
+    
+    }
+    
     #mt-pic {
     width: 90%;
     height: auto;
