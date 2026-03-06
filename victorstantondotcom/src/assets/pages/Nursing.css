@@ -82,7 +82,7 @@
       font-size: 3rem;
     }
     #rn-pic {
-    width: 80%;
+    width: 90%;
     height: auto;
     outline: 3px #60BFC4 solid;
     border-radius: 30%;
@@ -93,7 +93,7 @@
     }
 
     .rn-text {
-        width: 80%;
+        width: 90%;
         height: auto;
         text-align: left;
         /* outline: 3px #369B76 solid; */
@@ -105,7 +105,7 @@
         /* outline: 1px red solid; */
     }
     .rn-projects {
-        width: 80%;
+        width: 90%;
         /* outline: 1px red solid; */
     }
     
