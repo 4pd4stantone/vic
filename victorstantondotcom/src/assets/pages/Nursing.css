@@ -70,13 +70,13 @@
     /* outline: 1px red solid; */
     }
     #main-tag {
-    padding-top: 20%;
+    padding-top: 20vh;
     width: 70%;
     padding-left: 30%;
      /* outline: 1px red solid; */
     }
     #rn-title, #rn-projects-title {
-    padding: 20% 0 0% 0;
+    padding: 10% 0 0% 0;
     text-align: center;
     /* outline: 3px red solid; */
       font-size: 3rem;
