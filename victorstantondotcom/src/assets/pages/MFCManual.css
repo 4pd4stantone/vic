@@ -19,7 +19,9 @@
 
 @media (max-width: 820px) {
     #manual {
-        width: 97%;
+        width: 95%;
         padding-top: 20%;
+        padding-left: 3%;
+        /* outline: 1px red solid; */
     }
 }
