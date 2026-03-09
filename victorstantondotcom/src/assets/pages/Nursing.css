@@ -35,7 +35,7 @@
     color: #1c5460;
     font-size: 2.8vh;
     display: block;
-    /* outline: red 1px solid; */
+    outline: red 1px solid;
     width: 50%;
 }
 .rn-text::first-letter {
@@ -142,5 +142,7 @@
         width: 90%;
         /* outline: 1px red solid; */
     }
-    
+    #res-link {
+        width: 60%;
+    }
 }
