@@ -46,11 +46,13 @@
 }
 .role {
      color: #1c5460;
+     font-size: 3.75vh;
 }
 .place {
     color: #1c5460;
     font-style: italic;
     font-weight: 500;
+    font-size: 3.75vh;
 }
 .rn-projects {
     /* outline: 5px purple solid; */
