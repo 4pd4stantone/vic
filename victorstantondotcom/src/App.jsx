@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import SimpleNav from './assets/components/SimpleNav.jsx';
 import MFCManual from './assets/pages/MFCManual.jsx';
 import About from './assets/pages/About.jsx'
+import NursingResume from './assets/pages/NursingResume.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/nursing" element={<Nursing/>}/>
           <Route path='/nursing/nursing-manual' element={<MFCManual simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
           <Route path="/about" element={<About/>}/>
+          <Route path='/nursing/nursing-resume' element={<NursingResume simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
         </Routes>
       {simpleNav ? "" : <Footer></Footer>}
     </>

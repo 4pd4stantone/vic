@@ -14,13 +14,17 @@ function Nursing() {
             <img id='rn-pic' src={RN} alt="Nurse Stanton" />
             <p className='rn-text'>
               Victor Stanton is a Nurse with experience in pediatric foster care, rehab admissions, and acute care telemetry units across New York City. He is known for leading nursing teams, building documentation tracking systems, and improving clinic workflows through technology. Victor has coordinated care for medically fragile children, veterans, and rehab patients while supporting interdisciplinary teams with clear communication and bilingual Spanish-English education. His work combines clinical leadership, digital process design, and patient-centered care to improve accuracy, efficiency, and outcomes across diverse healthcare settings.
+              <br />
+              <br />
+              <Link id="res-link" to="/nursing/nursing-resume"> Nursing Resume</Link>
             </p>
+            
           </div>
           <h1 id='rn-projects-title'>Nursing Projects</h1>
           <div className="rn-projects">
               <h2 className="role">Victor Stanton - Nurse Case Manager Supervisor</h2>
               <h2 className="place">Children's Aid - Medical Foster Care (MFC) Program</h2>
-              <h3 className="sub-title">1. Nurse Case Manager Orientation Manual</h3>
+              <h3 className="sub-title"><Link id='manual-link-title' to='/nursing/nursing-manual'>1. Nurse Case Manager Orientation Manual</Link></h3>
               <h4 className="sub-sub-title">Problem:</h4>
                 <p className="rn-text-projects">Over time, the Nurse Case Manager Orientation Manual had expanded with additions from multiple contributors, resulting in a document that lacked clear organization and consistent structure. Important procedures and expectations were difficult to locate, and several protocols no longer reflected current program practices. This created challenges for onboarding new nurses, maintaining consistent workflows, and ensuring that staff clearly understood the scope and responsibilities of the Nurse Case Manager role.
                 </p>

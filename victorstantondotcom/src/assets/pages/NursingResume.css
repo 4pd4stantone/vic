@@ -1,0 +1,24 @@
+#resume-section {
+    outline: #1c5460 1px solid;
+    width: 54vw;
+    margin: 30vh auto;
+    padding: 15vh 5vh 5vh 5vh;
+}
+
+#resume-name {
+    color: #1c5460;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 1vh;
+}
+
+#nursing-link {
+    color: #1c5460;
+    margin: 1vh auto 5vh auto;
+    display: block;
+    width: 12.5vw;
+    /* outline: #1c5460 1px solid; */
+}
