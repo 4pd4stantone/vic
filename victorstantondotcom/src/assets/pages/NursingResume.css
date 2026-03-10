@@ -36,6 +36,7 @@
         /* outline: 1px red solid; */
     }
     #nursing-link {
-    width: 35%;
+    width: 55%;
+    outline: 1px red solid;
     }
 }
