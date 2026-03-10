@@ -18,9 +18,9 @@
 
 #nursing-link {
     color: #1c5460;
-    margin: 1vh auto 5vh auto;
+    /* margin: 1vh auto 5vh auto;
     display: block;
-    width: 25%;
+    width: 25%; */
     /* outline: #1c5460 1px solid; */
     
 }
@@ -36,7 +36,7 @@
         /* outline: 1px red solid; */
     }
     #nursing-link {
-    width: 55%;
+    /* width: 55%; */
     /* outline: 1px red solid; */
     }
 }

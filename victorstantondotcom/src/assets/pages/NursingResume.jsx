@@ -16,8 +16,8 @@ useEffect(() => {
     <>
     <section id="resume-section">
         <h1 id="resume-name">Victor Stanton</h1>
-        <p className="contact-info">Ossining, NY 10562 | Victor.Stanton@gmail.com | 917-6021606</p>
-        <Link to="/nursing" id="nursing-link">www.VictorStanton.com</Link>
+        <p className="contact-info">Ossining, NY 10562 | Victor.Stanton@gmail.com | <Link to="/nursing" id="nursing-link">www.VictorStanton.com</Link></p>
+       
 
         <h3>PROFESSIONAL SUMMARY</h3>
         <p>Registered Nurse and Nurse Case Manager Supervisor with experience in pediatric foster care, nursing home and rehab admissions, and acute care telemetry units across New York City. Known for strong leadership, precise documentation, bilingual Spanish-English communication, and process improvement using digital tools. Experience building healthcare documentation and tracking systems that support accurate reporting, efficient workflows, and improved patient outcomes.</p>
