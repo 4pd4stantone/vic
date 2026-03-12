@@ -2,7 +2,7 @@
     /* outline: 1px red solid; */
     padding-top: 16vh;
     padding-left: 0vw;
-    width: 60vw;
+    width: 70vw;
     display: block;
     margin: 5vh auto;
 }
@@ -15,7 +15,7 @@
 }
 
 .contact-info-section {
-    width: 60vw;
+    width: 70vw;
     /* outline: 1px red solid; */
 }
 
@@ -71,8 +71,8 @@
     #contact-section {
     /* outline: 1px red solid; */
         padding-top: 16vh;
-        padding-left: 30%;
-        width: 60vw;
+        padding-left: 20vw;
+        width: 70vw;
         display: block;
         margin: 5vh auto;
     }
