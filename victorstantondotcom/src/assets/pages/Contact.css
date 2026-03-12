@@ -76,4 +76,7 @@
         display: block;
         margin: 5vh auto;
     }
+    #contact-title {
+        font-size: 6vh;
+    }
 }
