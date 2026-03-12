@@ -9,6 +9,7 @@ import SimpleNav from './assets/components/SimpleNav.jsx';
 import MFCManual from './assets/pages/MFCManual.jsx';
 import About from './assets/pages/About.jsx'
 import NursingResume from './assets/pages/NursingResume.jsx';
+import Contact from './assets/pages/Contact.jsx'
 
 function App() {
 
@@ -23,9 +24,10 @@ function App() {
           <Route path="/" element={<Homepage/>}/>
           <Route path="/movement-therapy" element={<MovementTherapy/>}/>
           <Route path="/nursing" element={<Nursing/>}/>
-          <Route path='/nursing/nursing-manual' element={<MFCManual simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
+          <Route path='/nursing/nursing-manual' element={<MFCManual simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} />
+          <Route path='/nursing/nursing-resume' element={<NursingResume simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} />
           <Route path="/about" element={<About/>}/>
-          <Route path='/nursing/nursing-resume' element={<NursingResume simpleNav={simpleNav} setSimpleNav={setSimpleNav}/>} ></Route>
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
       {simpleNav ? "" : <Footer></Footer>}
     </>

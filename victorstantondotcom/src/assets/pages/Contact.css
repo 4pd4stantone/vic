@@ -1,0 +1,79 @@
+#contact-section {
+    /* outline: 1px red solid; */
+    padding-top: 16vh;
+    padding-left: 0vw;
+    width: 60vw;
+    display: block;
+    margin: 5vh auto;
+}
+
+#contact-title {
+    color: #1c5460;
+    font-size: 10vh;
+    /* outline: 1px red solid; */
+    text-align: center;
+}
+
+.contact-info-section {
+    width: 60vw;
+    /* outline: 1px red solid; */
+}
+
+.input-names {
+    /* outline: 1px red solid; */
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input-name {
+    width: 20vw;
+    margin: 1vh 0 1vh 0;
+    border: #1c5460 1px solid;
+    border-radius: 3px;
+    color: #1c5460;
+    font-size: 2.25vh;
+}
+
+.input-infos {
+    /* outline: 1px red solid; */
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input-info {
+     width: 20vw;
+    margin: 1vh 0 1vh 0;
+    border: #1c5460 1px solid;
+    border-radius: 3px;
+    color: #1c5460;
+    font-size: 2.25vh;
+}
+
+#text-area {
+    width: 50vw;
+    margin: 2vh auto;
+    display: block;
+    border: #1c5460 1px solid;
+    border-radius: 3px;
+    font-size: 2.25vh;
+    color: #1c5460;
+}
+
+.input-info:focus,
+.input-name:focus,
+#text-area:focus {
+    outline:  #1c5460  1px solid;
+    border: #1c5460  1px solid;
+}
+@media (max-width: 820px) {
+    #contact-section {
+    /* outline: 1px red solid; */
+        padding-top: 16vh;
+        padding-left: 30%;
+        width: 60vw;
+        display: block;
+        margin: 5vh auto;
+    }
+}
