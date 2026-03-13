@@ -17,6 +17,10 @@ function Contact() {
                 </div>
                 
                 <textarea name="" id="text-area" placeholder="Your message here..." rows="10" cols="40"></textarea>
+                <div className="contact-submit-btn-div">
+                    <button className="contact-submit-btn">Submit</button>
+                </div>
+                
             </div>
         </section>
     )
